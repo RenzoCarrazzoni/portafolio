@@ -1,0 +1,492 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.encabezado{
+    position: relative; 
+    width: 1136px;
+    height: 88px;
+    margin: 0px auto;
+}
+
+.encabezado a{
+    text-decoration: none;
+    color: #464646; 
+}
+
+.banner{
+    position: absolute;
+    width: 300px;
+    top: 32px;
+    left: 0%;
+}
+
+.banner img{
+    float: left;
+    padding-right: 8px;
+}
+
+.banner h1{
+    padding: 2.5px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+nav{
+    position: absolute;
+    right: 0%;
+    top: 32px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 32px;
+}
+
+.principal{
+    width: 1136px;
+    margin: 32px auto;
+}
+
+.resumen{
+    padding-top: 61px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+
+}
+
+.perfil{
+    background-image: url('img/perfil.jpg');
+    background-size: cover;
+    background-position: top center;
+    padding-left: 17px;
+    width: 368px;
+    height: 368px;
+    float: right;
+    border-radius: 50%;
+}
+
+.principal p{
+    margin: 24px 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #464646;
+}
+
+
+.links li{
+    display:inline-flex;
+    align-items: center;
+    height: 24px;
+    margin-right: 32.69px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;   
+
+    color: #464646;   
+}
+
+.links li a{
+    text-decoration: none;
+    color: #464646; 
+}
+
+.flecha{
+    height: 24px;
+    width: 24px;
+    padding-left: 4.69px;
+}
+
+.about{
+    clear:right;
+    padding: 64px 0px;
+    background: #EAF2FD;
+}
+
+.info{
+    width: 1136px;
+    margin: 0px auto;
+}
+
+.titulo-principal{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #464646;
+}
+
+.info p{
+    width: 751px; 
+    text-align: justify;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding: 16px 0px;
+}
+
+.firma{
+    width: 140px;
+}
+
+.skills-hobbies{
+    width: 100%;
+}
+
+.habilidades{
+    width: 1136px;
+    margin: 32px auto 0px auto;
+}
+
+.habilidades h4{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.lista{
+    height: 174px;
+    width: 100%;
+}
+
+.lista ul{
+    display: flex;
+}
+.lista li{
+    display: inline-block;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.lista li:first-child{
+    padding-left: 0px;
+}
+
+.lista li:last-child{
+    padding-right: 0px;
+}
+
+.skill{
+    width: 176px;
+    height: 174px;
+    background: white;
+}
+
+.logo{
+    margin: 94px 0px 0px 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.topic{
+    width: 144px;
+    margin: 8px 0px 0px 16px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.hobbies{
+    width: 1136px;
+    margin: 88px auto;
+}
+
+.hobbies h5{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.estudios{
+    width: 100%;
+    background: #E5E5E5;
+    padding: 88px 0px;
+}
+
+.estudios h6{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.formacion{
+    width: 1136px;
+    margin: 0px auto;
+}
+
+.formacion ul{
+    display: flex;
+}
+
+.ente{
+    position: relative;
+    width: 368px;
+    height: 286px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+.ente img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 192px;
+}
+
+#medio{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.titulo-secundario{
+    margin-bottom: 8px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #464646;
+}
+
+.texto{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+}
+
+.experiencia{
+    width: 1136px;
+    margin: 32px auto;
+}
+
+#proyectos{
+    text-align: center;
+}
+
+.items section:first-child{
+    margin: 32px 0px 64px 0px;
+}
+
+.items section:last-child{
+    margin-top: 32px;
+}
+
+.proyecto{
+    width: 100%;
+    display: flex;
+}
+
+.presentacion-izq{
+    width: 752px;
+    margin-right: 16px;
+}
+
+.presentacion-der{
+    width: 752px;
+    margin-left: 16px;
+}
+
+.informacion{
+    height: 100%;
+    margin: auto 0;
+    width: 368px;
+}
+
+.btn-repositorio{
+    width: 105px;
+    height: 51px;
+    margin-top: 8px;
+
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    color: #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.btn-repositorio a{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.btn-demo{
+    width: 105px;
+    height: 49px;
+    margin-top: 8px;
+    margin-left: 16px;
+
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.btn-demo a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.pie-contacto{
+    background-color: #EAF2FD;
+
+}
+
+.contacto{
+    width: 1136px;
+    margin: 64px auto 0 auto;
+    padding: 64px 0px;
+    display: flex;
+}
+
+.contacto img{
+    width: 464px;
+    height: 596px;
+}
+
+.formulario{
+    margin-left: 16px;
+    width: 656px;
+    height: 596px;
+}
+
+.formulario h6{
+    margin-bottom: 8px;
+}
+
+.formulario p{
+    line-height: 19px;
+}
+
+.cajas{
+    margin: 32px 0px;
+}
+
+.cajas div:first-child{
+    margin-top: 0px;
+}
+
+.cajas div:last-child{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contenedor{
+    margin: 32px 0px;
+    width: 632px;
+    height: 38px;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border-bottom: 2px solid;
+    border-color: #C8C8C8;
+}
+
+.contenedor label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #A2A2A2;
+ 
+    margin-bottom: 4px;
+    line-height: 16px;
+    display: block;
+  }
+
+.input-contacto{
+    outline: none;
+    border: none;
+    width: 99%;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+}
+
+#enviar{
+    width: 144px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#contenedor-msg{
+    height: 115px;
+    width: 632px;
+}
+
+#mensaje{
+    height: 99%;
+    width: 99%;
+    overflow: hidden;
+    resize: none;
+}
+
+.rodapie{
+    padding: 32px 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}
+
+.btn-off{
+    background-color: #464646;
+}
+
+.btn-on{
+    background-color: #2A7AE4;
+}
