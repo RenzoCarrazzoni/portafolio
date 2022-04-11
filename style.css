@@ -510,6 +510,14 @@ nav li{
     nav{
         top: 0;
         position: relative;
+        text-align: center;
+    }
+    nav ul, nav ul li{
+        margin: 0 5px;
+    }
+    .links ul li{
+        float:none;
+        margin: 0 auto;
     }
     .principal{
         text-align: center;
