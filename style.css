@@ -490,3 +490,86 @@ nav li{
 .btn-on{
     background-color: #2A7AE4;
 }
+
+@media screen and (max-width:480px){
+    .encabezado, .banner, .info p, .principal, .info, .habilidades, .hobbies, .formacion,
+    .experiencia, .presentacion-izq, .presentacion-der, .contacto, .informacion, .formulario, .cajas,
+    .contenedor, .input-contacto, #contenedor-msg, #mensaje{
+        width: auto;
+    }
+    .banner{
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+    .banner img{
+        padding: 0;
+        float:none;
+        display: inline-block;
+    }
+    nav{
+        top: 0;
+        position: relative;
+    }
+    .principal{
+        text-align: center;
+    }
+    .perfil{
+        padding: 0;
+        float: none;
+        margin: 16px auto;
+    }
+    .resumen{
+        padding: 4px;
+    }
+    .principal p{
+        text-align: justify;
+        padding: 0 5px;
+    }
+    .info{
+        padding: 0 5px;
+    }
+    .lista ul, .formacion ul, .lista, .formacion, .proyecto, .contacto{
+        display: inline-block;
+        text-align: center;
+    }
+    .lista li{
+        padding: 0;
+        margin: 8px 0px;
+    }
+    .skill{
+        padding: 0;
+        text-align: left;
+    }
+    .estudios{
+        text-align: center;
+        padding: 88px 0;
+        margin: 8px 0px;
+    }
+    #medio{
+        margin: 0px;
+    }
+
+    .presentacion-izq, .presentacion-der, .informacion{
+        margin: 0;
+    }
+    .presentacion-izq img, .presentacion-der img{
+        width: 100%;
+    }
+    .contacto{
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .contacto img{
+        width: 100%;
+    }
+    .formulario{
+        margin-left: 0px;
+    }
+    .input-contacto{
+        text-align: center;
+    }
+    #contenedor-msg{
+        margin-bottom: 6px;
+    }
+}
